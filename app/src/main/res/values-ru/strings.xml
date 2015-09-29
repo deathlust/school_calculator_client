@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="hint_first_number">Первое число</string>
+    <string name="hint_second_number">Второе число</string>
+    <string name="format_error">Неверный числовой формат</string>
+</resources>

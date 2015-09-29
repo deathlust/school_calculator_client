@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium"
+    tools:context=".MainActivity" >
+    <!-- First Number-->
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_first_number"
+        android:id="@+id/x"
+        android:inputType="numberSigned"/>
+
+    <!-- Second Number-->
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_second_number"
+        android:id="@+id/y"
+        android:inputType="numberSigned"/>
+
+    <!-- Operation buttons. -->
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium">
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_plus"
+            android:onClick="buttonClicked" />
+
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_minus"
+            android:onClick="buttonClicked"/>
+
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_mult"
+            android:onClick="buttonClicked"/>
+
+        <Button android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/op_div"
+            android:onClick="buttonClicked"/>
+    </LinearLayout>
+
+    <!-- TextView for result. -->
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"/>
+</LinearLayout>

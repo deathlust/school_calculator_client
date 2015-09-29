@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ArithmeticClient</string>
+
+    <string name="op_plus" translatable="false">+</string>
+    <string name="op_minus" translatable="false">-</string>
+    <string name="op_mult" translatable="false">*</string>
+    <string name="op_div" translatable="false">/</string>
+    <string name="hint_first_number">First number</string>
+    <string name="hint_second_number">Second number</string>
+    <string name="format_error">Wrong number format</string>
+</resources>
